@@ -1,10 +1,18 @@
 {
   "suggest.noselect": false,
+  "diagnostic.enableHighlightLineNumber": true,
+  "diagnostic.messageTarget": "echo",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
     "graphql",
     "js",
-    "dart"
+    "dart",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "coc.preferences.hoverTarget": "float",
   "eslint.autoFixOnSave": true,
@@ -14,5 +22,8 @@
     "typescript",
     "typescriptreact"
   ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
   "eslint.packageManager": "npm"
 }

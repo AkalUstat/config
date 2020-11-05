@@ -127,3 +127,205 @@ echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
 
 
 . /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh
+
+. /usr/local/opt/asdf/asdf.sh

@@ -11,20 +11,17 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'wakatime/vim-wakatime'
 Plug 'hugolgst/vimsence'
 Plug 'vim-airline/vim-airline'
-Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
-Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'phanviet/vim-monokai-pro'
+Plug 'wfxr/minimap.vim'
 call plug#end()
 
 let g:python3_host_prog = '/usr/bin/python3'
  
 let ayucolor="dark"
-colorscheme nord
+colorscheme monokai_pro
 
 let g:airline_powerline_fonts = 1
-
-let g:netrw_liststyle = 3
-let g:netrw_banner = 0
 
 let g:fzf_layout = {'window': {'width': 0.8, 'height': 0.8}}
 let $FZF_DEFAULT_OPTS='--reverse'
@@ -43,4 +40,5 @@ if executable('rg')
 				let g:rg_derive_root='true'
 endif
 let g:rg_command = 'rg --vimgrep -S'
+
 

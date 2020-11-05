@@ -9,7 +9,6 @@ noremap <leader>f :Files<CR>
 noremap <leader>b :Buffers<CR>
 noremap <leader>u :UndotreeToggle<CR>
 nnoremap <leader>s :w <CR>
-nnoremap <leader>e  <cmd>CHADopen<CR>
 
 noremap <C-f> :Rg<space>
 nnoremap K i<space><enter>
