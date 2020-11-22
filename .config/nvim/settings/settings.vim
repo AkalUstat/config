@@ -20,6 +20,8 @@ set shiftwidth=2
 set softtabstop=2
 set hidden
 set showcmd
-set cmdheight=2
+set cmdheight=3
+set noshowmode
 
 set termguicolors
+let g:python3_host_prog = '/usr/bin/python3'

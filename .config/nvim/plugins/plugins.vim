@@ -1,44 +1,31 @@
 call plug#begin('~/.vim/plugged')
 Plug 'mbbill/undotree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jremmen/vim-ripgrep'
-Plug 'wakatime/vim-wakatime'
-Plug 'hugolgst/vimsence'
-Plug 'vim-airline/vim-airline'
-Plug 'ryanoasis/vim-devicons'
-Plug 'phanviet/vim-monokai-pro'
 Plug 'wfxr/minimap.vim'
+Plug 'itchyny/lightline.vim'
+" If you have nodejs and yarn
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
+
+
+Plug 'sheerun/vim-polyglot'
+Plug 'nvim-treesitter/nvim-treesitter'
+
+Plug 'wakatime/vim-wakatime'
+Plug 'ryanoasis/vim-devicons'
+Plug 'sainnhe/sonokai'
 call plug#end()
 
-let g:python3_host_prog = '/usr/bin/python3'
  
-let ayucolor="dark"
-colorscheme monokai_pro
-
-let g:airline_powerline_fonts = 1
-
-let g:fzf_layout = {'window': {'width': 0.8, 'height': 0.8}}
-let $FZF_DEFAULT_OPTS='--reverse'
-let g:fzf_preview_window = 'right:60%'
-
-let g:coc_global_extensions = [
-\ 'coc-snippets',
-\ 'coc-pairs',
-\ 'coc-tsserver',
-\ 'coc-eslint', 
-\ 'coc-json', 
-\ 'coc-rust-analyzer',
-\ 'coc-flutter',
-\ ]
-if executable('rg')
-				let g:rg_derive_root='true'
-endif
-let g:rg_command = 'rg --vimgrep -S'
+colorscheme sonokai
 
 

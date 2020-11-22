@@ -1,20 +1,4 @@
 {
-  "suggest.noselect": false,
-  "diagnostic.enableHighlightLineNumber": true,
-  "diagnostic.messageTarget": "echo",
-  "diagnostic.virtualText": true,
-  "diagnostic.virtualTextCurrentLineOnly": false,
-  "coc.preferences.formatOnSaveFiletypes": [
-    "json",
-    "graphql",
-    "js",
-    "dart",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "coc.preferences.hoverTarget": "float",
   "eslint.autoFixOnSave": true,
   "eslint.filetypes": [
     "javascript",
@@ -25,5 +9,32 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.packageManager": "npm"
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "graphql",
+    "js",
+    "dart",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "rust"
+  ],
+  "coc.preferences.hoverTarget": "float",
+  "coc.preferences.silentAutoupdate": true,
+  "diagnostic.virtualTextLines": 8,
+  "diagnostic.format": "[%code] %message",
+  "codeLens.enable": true,
+  "suggest.noselect": false,
+  "suggest.enablePreview": true,
+  "diagnostic.enableHighlightLineNumber": true,
+  "diagnostic.messageTarget": "float",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "eslint.packageManager": "npm",
+  "rust-analyzer.updates.channel": "nightly",
+  "rust-analyzer.inlayHints.chainingHints": true,
+  "rust-analyzer.checkOnSave.allFeatures": true,
+  "rust-analyzer.cargo.allFeatures": true,
+  "rust-analyzer.updates.prompt": false
 }
