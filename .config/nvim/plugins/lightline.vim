@@ -4,6 +4,6 @@ let g:lightline = {
 			\		'right': [['filename', 'filetype'], ['percent'], ['lineinfo'] , ],
 			\},
 			\ 'component_function': {
-			\ 'gitbranch': "FugitiveHead"
+			\ 'gitbranch': "FugitiveHead",
 			\ },
 			\}

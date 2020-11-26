@@ -27,5 +27,3 @@ call plug#end()
 
  
 colorscheme sonokai
-
-
