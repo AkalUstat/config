@@ -13,7 +13,7 @@ noremap <leader>e :Lex<CR>
 noremap <leader>m :MarkdownPreview<CR>
 nnoremap <leader>s :w <CR>
 
-noremap <C-f> :Rg<space>
+noremap <C-f> :Rg<CR>
 noremap <leader>m :MarkdownPreview<CR>
 nnoremap K i<space><enter>
 function! s:check_back_space() abort
