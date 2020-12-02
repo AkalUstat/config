@@ -116,70 +116,15 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 alias v=nvim 
 
 bindkey '^ ' autosuggest-accept
-echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
   export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
   export GUILE_LOAD_PATH="/usr/local/share/guile/site/3.0"
   export GUILE_LOAD_COMPILED_PATH="/usr/local/lib/guile/3.0/site-ccache"
   export GUILE_SYSTEM_EXTENSIONS_PATH="/usr/local/lib/guile/3.0/extensions"
 
-. /usr/local/opt/asdf/asdf.sh
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 
-. /usr/local/opt/asdf/asdf.sh
+alias update-nvim-master='asdf uninstall neovim ref:master && asdf install neovim ref:master'
 
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
-
-. /usr/local/opt/asdf/asdf.sh
 
 . /usr/local/opt/asdf/asdf.sh
