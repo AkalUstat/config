@@ -86,6 +86,9 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$HOME/dev_setup/flutter/bin
+export PATH=$PATH:'/Users/akalustat/.asdf/installs/golang/1.15.6/packages/bin'
+# export PATH=$PATH:'/Users/akalustat/.luarocks/bin:/Users/akalustat/.asdf/installs/lua/5.4.0/luarocks/bin:/Users/akalustat/.asdf/installs/lua/5.4.0/bin:/Users/akalustat/.asdf/shims:/usr/local/opt/asdf/bin:/Users/akalustat/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/kitty.app/Contents/MacOS:/Users/akalustat/Library/Android/sdk/emulator:/Users/akalustat/Library/Android/sdk/tools:/Users/akalustat/Library/Android/sdk/tools/bin:/Users/akalustat/Library/Android/sdk/platform-tools:/Users/akalustat/Library/Android/sdk/cmdline-tools/latest/bin:/Users/akalustat/dev_setup/flutter/bin:/Users/akalustat/go/bin'
+
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
