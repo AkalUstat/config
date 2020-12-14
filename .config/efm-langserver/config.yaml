@@ -1,0 +1,20 @@
+version: 2
+root-markers: 
+  - .git/
+
+tools:
+  js-ts-eslint: &js-ts-eslint
+    lint-command: 'eslint --stdin --stdin-filename ${INPUT} --format json'
+    lint-ignore-exit-code: true
+    lint-stdin: true
+
+languages: 
+  javascript: 
+    - <<: *js-ts-eslint
+  javascriptreact:
+    - <<: *js-ts-eslint
+  typescript:
+    - <<: *js-ts-eslint
+  typescriptreact:
+    - <<: *js-ts-eslint
+

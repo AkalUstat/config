@@ -9,6 +9,7 @@ local opt = vim.o
 
 opt.cursorline = true
 opt.relativenumber = true
+opt.numberwidth = 4
 opt.number = true
 opt.wrap = false
 

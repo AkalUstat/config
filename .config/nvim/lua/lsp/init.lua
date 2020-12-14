@@ -17,7 +17,49 @@ lsp.tsserver.setup {
     end,
 }
 
--- TODO: reimplement this when things are better
+require'lspconfig'.tsserver.setup{on_attach=custom_attach}
+require'lspconfig'.diagnosticls.setup{ 
+  on_attach=log_start,
+  filetypes = {"javascript", "javascriptreact", "typescript", "typescriptreact", "css", "rust"},
+  init_options = {
+    filetypes = {
+      javascript = "eslint",
+      javascriptreact = "eslint",
+      javascriptreact = "eslint",
+      typescriptreact = "eslint",
+    },
+    linters = {
+      eslint = {
+        sourceName = "eslint",
+        command = "eslint_d",
+        rootPatterns = { ".git" },
+        debounce = 100,
+        args = {
+          "--stdin",
+          "--stdin-filename",
+          "%filepath",
+          "--format",
+          "json",
+        },
+        parseJson = {
+          errorsRoot = "[0].messages",
+          line = "line",
+          column = "column",
+          endLine = "endLine",
+          endColumn = "endColumn",
+          message = "${message} [${ruleId}]",
+          security = "severity",
+        };
+         securities = {
+          [2] = "error",
+          [1] = "warning"
+        }
+
+      }
+    }
+  }
+}
+-- TODO: decide between efm and diagnosticls
 -- lsp.efm.setup {
 --     on_attach=log_start,
 --     init_options = {documentFormatting = true},
