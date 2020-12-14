@@ -6,6 +6,7 @@ echo "installing formulae"
 brew install make cmake coreutils curl git gpg python
 
 brew install asdf bat fd deno gh ripgrep yadm youtube-dl 
+brew install zsh-autosuggestions zsh-syntax-highlighting
 
 brew tap wfxr/code-minimap
 brew install code-minimap

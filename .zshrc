@@ -67,7 +67,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( vscode zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( vscode )
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
@@ -131,3 +131,7 @@ alias update-nvim-master='asdf uninstall neovim ref:master && asdf install neovi
 
 
 . /usr/local/opt/asdf/asdf.sh
+
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
