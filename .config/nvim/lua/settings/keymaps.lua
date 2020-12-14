@@ -21,3 +21,12 @@ map('n', '<leader>b', ':Telescope buffers<CR>', default_opts)
 -- UndoTree
 map('n', '<leader>u', ':UndoTreeToggle<CR>', default_opts)
 
+-- LS/Completion
+
+-- im cheating i know i know
+vim.cmd [[
+  inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+  inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+]]
+
+map('i', '<C-Space>', '<cmd>lua require("completion").completion_trigger()<CR>', default_opts)

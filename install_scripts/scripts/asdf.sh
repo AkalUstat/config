@@ -1,5 +1,5 @@
 #!/bin/zsh
-asdf plugin-add node-js
+asdf plugin-add nodejs
 asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
 asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
 asdf plugin-add lua https://github.com/Stratus3D/asdf-lua.git

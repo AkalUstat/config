@@ -1,24 +1,18 @@
+vim.cmd [[ autocmd BufEnter * lua require'completion'.on_attach() ]]
 local log_start = function(client)
     print("'" .. client.name .. "' language server started")
 end
 
-local custom_attach = function(client)
-    log_start(client)
-    require'completion'.on_attach(client)
-end
-
 local lsp = require 'lspconfig' 
-local eslint = require("lsp/eslint")
 
 lsp.tsserver.setup { 
     on_attach = function(client)
         client.resolved_capabilities.document_formatting = false,
-        custom_attach(client)
+        log_start(client)
     end,
 }
 
-require'lspconfig'.tsserver.setup{on_attach=custom_attach}
-require'lspconfig'.diagnosticls.setup{ 
+lsp.diagnosticls.setup{ 
   on_attach=log_start,
   filetypes = {"javascript", "javascriptreact", "typescript", "typescriptreact", "css", "rust"},
   init_options = {
@@ -54,7 +48,6 @@ require'lspconfig'.diagnosticls.setup{
           [2] = "error",
           [1] = "warning"
         }
-
       }
     }
   }

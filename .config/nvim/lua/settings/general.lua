@@ -32,6 +32,9 @@ opt.smartindent = true
 opt.shiftwidth = 2
 opt.expandtab = true
 
+opt.completeopt = "menu,noselect"
+opt.shortmess ="c"
+
 -- Stuff that happens in the background
 
 opt.autoread = true
@@ -50,4 +53,3 @@ opt.errorbells = false
 
 opt.softtabstop = 2
 opt.tabstop = 2
-
