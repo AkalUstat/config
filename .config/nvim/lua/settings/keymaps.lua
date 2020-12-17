@@ -7,10 +7,12 @@ map('n', 'K', 'i<space><enter>', default_opts)
 
 -- Netrw
 
-map('n', '<leader>e', ':Lex<CR>', default_opts)
-map('n', '<leader>we', ':Ex<CR>', default_opts)
-map('n', '<leader><leader><leader><leader><leader><leader>l', '<Plug>NetrwRefresh', default_opts)
+-- map('n', '<leader>e', ':Lex<CR>', default_opts)
+-- map('n', '<leader>we', ':Ex<CR>', default_opts)
+-- map('n', '<leader><leader><leader><leader><leader><leader>l', '<Plug>NetrwRefresh', default_opts)
 
+-- Lua Tree
+map('n', '<leader>e', ':LuaTreeToggle<CR>', default_opts)
 
 -- Telescope nvim
 map('n', '<leader>f', ':Telescope find_files<CR>', default_opts)

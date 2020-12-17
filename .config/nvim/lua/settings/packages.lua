@@ -11,29 +11,56 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup (
   function()
+    -- Packages
       use {'wbthomason/packer.nvim', opt = true}
+
+      -- QOL Plugins
       use  'mbbill/undotree'
       use { 'christoomey/vim-tmux-navigator' }
       use { 'tpope/vim-fugitive' }
       use { 'tpope/vim-surround' }
       use { 'tpope/vim-commentary' }
+      use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'}
+
+      -- Synatx
+      use {'nvim-treesitter/nvim-treesitter'}
+      use {'sheerun/vim-polyglot'}
+
+      -- Visual
+      use {'datwaft/bubbly.nvim', config = function()  
+          vim.g.bubbly_palette = {
+          background = "#34343c",
+          foreground = "#c5cdd9",
+          black = "#3e4249",
+          red = "#ec7279",
+          green = "#a0c980",
+          yellow = "#deb974",
+          blue = "#6cb6eb",
+          purple = "#d38aea",
+          cyan = "#5dbbc1",
+          white = "#c5cdd9",
+          lightgrey = "#57595e",
+          darkgrey = "#404247",
+       }  
+    end }      
+      use {'norcalli/nvim-colorizer.lua'}
+      use {'ryanoasis/vim-devicons'}
+      use {'sainnhe/sonokai'}
+    
+    -- LSP
       use {'neovim/nvim-lspconfig'}
       use {'nvim-lua/completion-nvim'}
       use {'mhartington/formatter.nvim'}   
-      -- TODO: somehow get settings to work, using telescope for now
-      -- use { 'junegunn/fzf', run = function() vim.fn['fzf#install']() end }
-      -- use { 'junegunn/fzf.vim' }
+
+    -- Navigation
+      use {'kyazdani42/nvim-tree.lua'}
       use {
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
       }
       use {'wfxr/minimap.vim'}
-      use {'itchyny/lightline.vim'}
-      use {'ryanoasis/vim-devicons'}
-      use {'sainnhe/sonokai'}
-      use {'iamcco/markdown-preview.nvim', run = function() vim.fn["cd app && yarn install"]() end }
-      use {'sheerun/vim-polyglot'}
-      use {'nvim-treesitter/nvim-treesitter'}
+
+      -- Time shaming
       use {'wakatime/vim-wakatime'}
   end
 ) 

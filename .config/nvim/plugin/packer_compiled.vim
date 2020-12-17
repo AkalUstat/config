@@ -138,6 +138,8 @@ end
 
 -- Pre-load configuration
 -- Post-load configuration
+-- Config for: bubbly.nvim
+loadstring("\27LJ\2\nê\1\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\f\ngreen\f#a0c980\tcyan\f#5dbbc1\bred\f#ec7279\rdarkgrey\f#404247\nblack\f#3e4249\14lightgrey\f#57595e\15foreground\f#c5cdd9\nwhite\f#c5cdd9\15background\f#34343c\vpurple\f#d38aea\tblue\f#6cb6eb\vyellow\f#deb974\19bubbly_palette\6g\bvim\0")()
 -- Conditional loads
 -- Load plugins in order defined by `after`
 END

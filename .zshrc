@@ -135,3 +135,4 @@ alias update-nvim-master='asdf uninstall neovim ref:master && asdf install neovi
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias ':q'='exit'
