@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 vim.g.python3_host_prog = '/usr/bin/python3'
 
-vim.cmd [[colorscheme sonokai]]
+vim.cmd [[colorscheme nvcode]]
 
 local opt = vim.o
 local wopt = vim.wo
@@ -9,11 +9,11 @@ local wopt = vim.wo
 -- Viewing
 
 opt.cursorline = true
--- this one doesnt work all the time in lua, so i set it in init.vim
+-- TODO: update this when vim.opt is added to neovim
 wopt.number = true
 wopt.relativenumber = true
 opt.numberwidth = 4
-opt.wrap = false
+wopt.wrap = false
 
 opt.showcmd = true
 opt.cmdheight = 3

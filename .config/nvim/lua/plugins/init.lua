@@ -1,5 +1,5 @@
 -- require("plugins.netrw")
 require("plugins.lua-tree")
 require("plugins.fzf")
-require("plugins.minimap")
+require("plugins.focus")
 require("plugins.treesitter")

@@ -14,13 +14,17 @@ return require('packer').startup (
     -- Packages
       use {'wbthomason/packer.nvim', opt = true}
 
+    -- Extend Internal Vim
+      use 'psliwka/vim-smoothie'
+      use 'wellle/targets.vim'
+
       -- QOL Plugins
-      use  'mbbill/undotree'
+      use  {'mbbill/undotree' }
       use { 'christoomey/vim-tmux-navigator' }
       use { 'tpope/vim-fugitive' }
       use { 'tpope/vim-surround' }
       use { 'tpope/vim-commentary' }
-      use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'}
+      use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'} 
 
       -- Synatx
       use {'nvim-treesitter/nvim-treesitter'}
@@ -43,24 +47,26 @@ return require('packer').startup (
           darkgrey = "#404247",
        }  
     end }      
-      use {'norcalli/nvim-colorizer.lua'}
-      use {'ryanoasis/vim-devicons'}
-      use {'sainnhe/sonokai'}
+      use 'norcalli/nvim-colorizer.lua'
+      use 'ryanoasis/vim-devicons'
+      use 'sainnhe/sonokai'  
+      use 'christianchiarulli/nvcode-color-schemes.vim'
+      use 'junegunn/goyo.vim'
+      use 'junegunn/limelight.vim'
     
     -- LSP
-      use {'neovim/nvim-lspconfig'}
-      use {'nvim-lua/completion-nvim'}
-      use {'mhartington/formatter.nvim'}   
+      use 'neovim/nvim-lspconfig'
+      use 'nvim-lua/completion-nvim'
+      use 'mhartington/formatter.nvim'
 
     -- Navigation
-      use {'kyazdani42/nvim-tree.lua'}
+      use {'kyazdani42/nvim-tree.lua', cmd = "LuaTreeToggle" }
       use {
         'nvim-telescope/telescope.nvim',
         requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
       }
-      use {'wfxr/minimap.vim'}
 
       -- Time shaming
-      use {'wakatime/vim-wakatime'}
+      use 'wakatime/vim-wakatime'
   end
 ) 
