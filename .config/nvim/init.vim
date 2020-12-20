@@ -3,6 +3,8 @@ lua << EOF
   require("plugins")
   require("lsp")
 EOF
+" because for some reason when betraying init.lua, netrw makes a comeback
+let g:netrw_dirhistmax = 0
 augroup vimrc
     autocmd!
 		autocmd ColorScheme * highlight LspDiagnosticsVirtualTextError guifg=#fc5d7c guibg=#643B3B
