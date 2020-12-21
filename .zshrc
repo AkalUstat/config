@@ -128,6 +128,7 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 alias update-nvim-master='asdf uninstall neovim ref:master && asdf install neovim ref:master'
+alias update-nvim-nightly='asdf uninstall neovim nightly && asdf install neovim nightly'
 
 
 . /usr/local/opt/asdf/asdf.sh

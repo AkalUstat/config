@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/akalustat/.config/nvim/lua/settings'
+let g:netrw_dirhist_7='/Users/akalustat/.config/nvim/lua'
+let g:netrw_dirhist_6='/Users/akalustat/.config/nvim'
+let g:netrw_dirhist_5='/Users/akalustat/.config/nvim/lua/settings'
+let g:netrw_dirhist_4='/Users/akalustat/.config/nvim/lua'
+let g:netrw_dirhist_3='/Users/akalustat/.config/nvim'
+let g:netrw_dirhist_2='/Users/akalustat/.config/nvim/plugin'
+let g:netrw_dirhist_1='/Users/akalustat/.config/nvim'
+let g:netrw_dirhist_0='/Users/akalustat/.config/nvim/lua/settings'
+let g:netrw_dirhist_9='/Users/akalustat/.config/nvim/lua'
