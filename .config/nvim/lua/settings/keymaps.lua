@@ -50,6 +50,8 @@ vim.cmd [[
   inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 ]]
 
+-- alt + D
+map('n', '∂', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', silent_opts)
 map('i', '<C-Space>', '<cmd>lua require("completion").completion_trigger()<CR>', default_opts)
 
 -- [[ Limelight/ Goyo ]]
