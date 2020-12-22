@@ -1,4 +1,5 @@
 vim.cmd [[ autocmd BufEnter * lua require'completion'.on_attach() ]]
+
 local log_start = function(client)
     print("'" .. client.name .. "' language server started")
 end
@@ -52,6 +53,20 @@ lsp.diagnosticls.setup{
     }
   }
 }
+lsp.sumneko_lua.setup({
+    -- An example of settings for an LSP server.
+    --    For more options, see nvim-lspconfig
+    settings = {
+      Lua = {
+        diagnostics = {
+          enable = true,
+          globals = { "vim" },
+        },
+      }
+    },
+
+    on_attach = log_start
+  })
 -- TODO: decide between efm and diagnosticls
 -- lsp.efm.setup {
 --     on_attach=log_start,
