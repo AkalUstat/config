@@ -12,3 +12,5 @@ augroup vimrc
 												\ | highlight LspDiagnosticsVirtualTextInformation guifg=#76cce0 guibg=#3A626B
 												\ | highlight LspDiagnosticsVirtualTextHint guifg=#9ed072 guibg=#536B3A
 augroup END
+
+
