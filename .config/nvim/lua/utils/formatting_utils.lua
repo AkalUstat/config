@@ -1,34 +1,44 @@
 local api = vim.api
+local fn = vim.fn
 
 local general_utils = require("utils.general_utils")
 
 local formatting = {}
 
-local prettier_configs  = {".prettierrc"}
-local eslint_configs = {".eslintrc"}
+local prettier_conf  = {".prettierrc"}
+local eslint_conf = {".eslintrc"}
 
 local prettier_exe = {
-  exe = "prettier-eslint",
-  args = {"--stdin", "--stdin-filepath", api.nvim_buf_get_name(0) },
-  stdin = true
+  command = "prettier-eslint",
+  args = {"--stdin", "--stdin-filepath", "%filepath"},
 }
+
 local eslint_exe = {
-  exe = "eslint_d",
+  command = "eslint_d",
   args = { api.nvim_buf_get_name(0), "--fix" },
-  stdin = true
 }
 
-formatting.configs = { prettier_configs, eslint_configs }
-formatting.executables = { prettier_exe, eslint_exe } 
 
-formatting.check_configs = function(dir, configs)
+local check_conf = function(dir, configs)
   for _, config_file_type in ipairs(configs) do
     if general_utils.check_has(dir, config_file_type) then
-      return true
+      return { true, config_file_type }
     end
   end
 
-  return false
+  return { false }
+end
+
+formatting.executables =  { prettier_exe, eslint_exe }
+
+formatting.pick_js_formatter = function()
+  local working_dir = fn.getcwd()
+  local parse_dir = fn.readdir(working_dir)
+
+  local has_prettier = check_conf(parse_dir, prettier_conf)
+  local has_eslint = check_conf(parse_dir, eslint_conf)
+
+  return has_prettier and prettier_exe or eslint_exe
 end
 
 return formatting

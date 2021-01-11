@@ -4,6 +4,7 @@
 # yadm remote add origin [ssh key]
 
 yadm clone https://github.com/AkalUstat/dotfiles
+yadm checkout old-mac
 yadm status
 
 source ~/.zshrc

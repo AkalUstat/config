@@ -1,2 +1,2 @@
 #!/bin/zsh
-npm i -g eslint firebase-tools neovim eslint_d gatsby lerna
+npm i -g eslint neovim eslint_d 

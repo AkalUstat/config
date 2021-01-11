@@ -50,7 +50,6 @@ return require('packer').startup (
       use 'norcalli/nvim-colorizer.lua'
       use 'ryanoasis/vim-devicons'
       use 'sainnhe/sonokai'  
-      use 'christianchiarulli/nvcode-color-schemes.vim'
       use 'junegunn/goyo.vim'
       use 'junegunn/limelight.vim'
     
@@ -58,6 +57,7 @@ return require('packer').startup (
       use 'neovim/nvim-lspconfig'
       use 'nvim-lua/completion-nvim'
       use 'mhartington/formatter.nvim'
+      use 'dense-analysis/ale'  
 
     -- Navigation
       use {'kyazdani42/nvim-tree.lua', cmd = "LuaTreeToggle" }
